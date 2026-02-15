@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>دورة CSS</title>
+    <style>
+        body {
+            background-image: url("iii.png");
+            background-position: top right;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        img {
+            margin-top: 150px;
+            display: block;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        nav {
+            background-color: rgba(0, 0, 0, 0.6);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            display: flex;
+            justify-content: right;
+            gap: 10px;
+            box-sizing: border-box;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 15px 12px;
+            border-radius: 2px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #082842;
+        }
+
+        nav a.active {
+            background-color: #417d8f;
+            color: #ffffff;
+        }
+
+        header {
+            margin-top: 450px;
+            text-align: center;
+            position: fixed;
+        }
+
+        header h1 {
+            font-family: 'Tahoma', sans-serif;
+            font-size: 3em;
+            color: #0a5e6d;
+            ;
+        }
+
+        input[type="submit"] {
+            margin-top: 8px;
+            padding: 10px 40px;
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #fff;
+            background-color: #fc699a;
+            border: none;
+            border-radius: 20px;
+            border-style: solid;
+            border-color: #e15a95;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        input[type="submit"]:hover {
+            background-color: #64062f;
+        }
+    </style>
+</head>
+
+<body dir="rtl"> <img src="CSSS.png" height="300" width="500" alt="html logo"> <!-- قائمة التنقل -->
+    <nav> <a href="#" class="active">الصفحة الرئيسية</a> <a href="#">من نحن</a> <a href="#">تواصل معنا</a> <a
+            href="#">تفاصيل الدورة</a> </nav>
+    <header>
+        <h1>دورة لتعلم CSS</h1>
+        <form action="#join"> <input type="submit" value="انضمام" /> </form>
+    </header>
+</body>
+
+</html>
