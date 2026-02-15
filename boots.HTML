@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Bootstrap Page</title>
+</head>
+
+<body>
+
+<div class="container my-5">
+
+    <!-- Header -->
+    <div class="text-center bg-light text-dark p-4 rounded shadow-sm mb-4">
+        <h1 class="mb-2">Bootstrap Course</h1>
+        <p class="mb-0 fw-bold text-primary">Welcome to Bootstrap</p>
+    </div>
+
+    <!-- Table Title -->
+    <h2 class="text-center fw-bold mb-3">Course Schedule</h2>
+
+    <!-- Table -->
+    <table dir="rtl" class="table table-striped my-5">
+        <tr>
+            <th>اليوم</th>
+            <th>المكان</th>
+        </tr>
+
+        <tr>
+            <td>الاحد و الاثنين</td>
+            <td>class A</td>
+        </tr>
+
+        <tr>
+            <td>الثلاثاء و الاربعاء</td>
+            <td>class B</td>
+        </tr>
+
+        <tr>
+            <td colspan="2" class="text-center fw-bold">الخميس عن بعد</td>
+        </tr>
+    </table>
+
+    <!-- Form -->
+    <form class="mb-5">
+        <div class="mb-3">
+            <label for="email" class="form-label"><b>Email address</b></label>
+            <input class="form-control" type="email" name="email" id="email" placeholder="Enter email">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+    <!-- Course Card -->
+    <div class="d-flex justify-content-center mb-5">
+        <div class="card shadow" style="width: 18rem;">
+            <img class="card-img-top" src="CSSS.png" alt="bootstrap logo">
+            <div class="card-body text-center">
+                <h3 class="card-title">Bootstrap course</h3>
+                <p class="card-text">Bootstrap is a free and open source CSS</p>
+                <a href="#" class="btn btn-primary">Go to course</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <ul class="nav justify-content-center mb-5">
+        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+    </ul>
+
+    <nav class="my-5">
+        <ul class="pagination justify-content-center">
+
+            <li class="page-item disabled">
+                <a class="page-link">Previous</a>
+            </li>
+
+            <li class="page-item active">
+                <a class="page-link">1</a>
+            </li>
+
+            <li class="page-item">
+                <a class="page-link" href="#">2</a>
+            </li>
+
+            <li class="page-item">
+                <a class="page-link" href="#">3</a>
+            </li>
+
+            <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+            </li>
+
+        </ul>
+    </nav>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
